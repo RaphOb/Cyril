@@ -27,7 +27,7 @@ The key features are:
 <div class="termy">
 
 ```console
-$ pip install cyril
+$ pip install cyril1
 
 ---> 100%
 ```

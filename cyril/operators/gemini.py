@@ -79,5 +79,7 @@ class Gemini(OperatorsBase):
                     resp += data["candidates"][0]["content"]["parts"][0]["text"]
             md = Markdown(resp)
             console.print(md)
-        except Exception:
-            typer.echo("An error occurred: Probably due to misspelled prompt.")
+        except Exception as e:
+            typer.echo(
+                f"An error occurred: Probably due to gemini issue or env var misspelled. {e}"
+            )
