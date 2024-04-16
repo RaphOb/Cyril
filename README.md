@@ -1,7 +1,6 @@
-<p align="center">
-  <center> Cyril </center>
-<p align="center">
-    <em>Cyril, your best colleague is sitting next to you to assist you.</em>
+  ## **<p style="text-align: center"> Cyril </p>**
+    
+<p><em>Cyril, your best colleague is sitting next to you to assist you.</em><p>
 
 ---
 [![PyPI version](https://badge.fury.io/py/cyril1.svg)](https://badge.fury.io/py/cyril1)
