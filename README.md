@@ -4,11 +4,8 @@
     <em>Cyril, your best colleague is sitting next to you to assist you.</em>
 
 ---
-
-**Documentation**: Docu what?</a>
-
-**Source Code**: Todo</a>
-
+[![PyPI version](https://badge.fury.io/py/cyril1.svg)](https://badge.fury.io/py/cyril1)
+[![Downloads](https://pepy.tech/badge/cyril1)](https://pepy.tech/project/cyril1)
 ---
 
 Imagine a good colleague, a friend, a genius who assists you every minute. A Terraform question? Ask Cyril! A Bash question? Ask Cyril! You have a question about life in general or about keyboards! Just ASK!
@@ -41,7 +38,7 @@ You will also need either
 
 Export the API key as an environment variable:
 * export CYRIL_OPEN_API=***
-* export CYRIL_GEMINI=*** 
+* export CYRIL_GEMINI=*** # Not Implemented Yet
 * export PROJECT_ID=***
 
 ## Example
@@ -52,6 +49,8 @@ $ cyril ask "What is the meaning of life?"
 $ cyril bash "How to list all files in a directory?"
 
 $ cyril terraform "How to create a new resource in Terraform?"
+
+$cyril keyboard "What is the best mechanical keyboard switch?"
 ```
 
 
